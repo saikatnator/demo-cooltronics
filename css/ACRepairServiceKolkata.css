@@ -1,0 +1,106 @@
+header, footer {
+    background-color: #ff5500;
+    color: #fff;
+    text-align: center
+}
+.wpcf7 input[type="submit"] {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ED254C;
+    
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+ .wpcf7 input:hover[type="submit"] {
+   background-color: #F9A641;  
+	 transition: all 0.4s ease 0s;
+ }
+
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="tel"],
+.wpcf7 select
+{
+    background-color: #fff;
+    color: #000;
+	padding: 0.4em 0.5em;
+  border-radius: 5px;
+}
+
+.kadence-column_3ac497-27 > .kt-inside-inner-col
+
+{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+
+i.cnb-font-icon {
+    font-family: 'CNB Icons';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: 'liga';
+}
+
+.call-now-button.cnb-full
+
+{
+height: 60px;
+}
+
+div.call-now-button.cnb-full.cnb-full-bottom
+{
+	margin-bottom:-8px;
+	
+}
+
+
+
+/* Disable RIght Click */
+body {
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ }
+
+.wp-call-button
+{
+background-image: linear-gradient(to left, #ED254C,#F9A641)!important;	
+padding: 10px 0 10px 0 !important;
+}
+
+button {
+	border-radius:20px;
+	}
+
+.wp-image-1918{
+	margin-bottom:-49px;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: black;
+    margin-bottom: 50px;
+}
+.services label {
+    /* display: inline; */
+}

@@ -1,0 +1,52 @@
+/* Styles for the mobile CTA button */
+.mobile-cta {
+		
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: none; /* Remove the background color */
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+    padding: 10px 0; /* Adjust padding as needed */
+    z-index: 9999; /* Set a high z-index value to ensure the button is on top */
+}
+
+.cta-button {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    display: flex;
+	width:50%;
+    align-items: center; /* Center content vertically */
+		justify-content: center;
+    background-color: #0B72EF; /* Red color for the button */
+}
+
+.button-content {
+	
+    display: flex;
+    align-items: center; /* Center content vertically */
+		font-size:22px;
+    
+}
+
+.button-text {
+	padding-left: 10px; /* Add margin to create a gap between icon and text */
+}
+
+.cta-button:hover {
+    background-color: #C30000; /* Set background to inherit, effectively removing hover color */
+    color: white; /* Ensure the text color stays white on hover */
+}
+
+@media (min-width: 768px) {
+    .mobile-cta {
+        display: none;
+    }
+}
