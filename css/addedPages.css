@@ -1,0 +1,12 @@
+.services-content {
+    display: grid;
+    grid-template-columns: auto;
+}
+@media only screen and (min-width: 768px) {
+    .inc-pages-wrapper {
+        max-width: 100%;
+    }
+    .services-content {
+        grid-template-columns: auto auto;
+    }
+}

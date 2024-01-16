@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="css/slick.css" type="text/css">
 <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/ACRepairServiceKolkata.css">
+<link rel="stylesheet" type="text/css" href="css/addedPages.css">
 </head>
 <body>
     
@@ -221,13 +222,13 @@
 </section>
 
 <!-- Inclusion of AC Repair Service in Kolkata page -->
-
+<section class="inc-pages-wrapper">
     <?php  
         include("ACRepairServiceKolkata.php");
         echo "<hr />";
         include("HitachiACService.php");
     ?>     
-
+</section>
 
 <section class="abt_area">
     <div class="container">
